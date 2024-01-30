@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <title>LINARA TRAVELS</title>
+</head>
+
+<body>
+
+  <header class="bg-light">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <nav>
+            <ul>
+              <li class="list-item"><a href="" class="lists">WHERE</a></li>
+              <li class="list-item"><a href="" class="lists">WHY</a></li>
+              <li class="list-item"><a href="" class="lists">RESORTS</a></li>
+              <li class="list-item"><a href="" class="lists">STORIES</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-4">
+          <div style="display: flex; justify-content: center; align-items: center;">
+            <img class="img-fluid"
+              src="https://www.linaratravel.com/wp-content/themes/linaratravel-theme/_assets/img/linara-logo.svg"
+              alt="Bootstrap" width="150" height="100">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <nav>
+            <ul>
+              <li class="list-item"><a href="" class="lists">MY TRIP</a></li>
+              <li class="list-item"><a href="" class="lists">ABOUT US</a></li>
+              <li class="list-item"><a href="" class="lists">CONTACT</a></li>
+              <li class="list-item"><a href="" class="lists"><i class="fa-solid fa-magnifying-glass"
+                    style="color: black;"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <br><br><br><br>
+
+  <!-- carousel -->
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./media/maldives.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 id="head-arrange">MALDIVES</h2>
+          <p class="sstyle">"The Maldives is world-famous for its myriad of marine life".</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./media/dubaiuu.jpg" class="d-block w-100 h-75" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="head-arrange">DUBAI</h5>
+          <p class="sstyle">“Dubai is a little slice of heaven.” “Beyond the clouds, the world's tallest tower inspires
+            guests to dream bigger and reach higher.”</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./media/india.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="head-arrange">INDIA</h5>
+          <p class="sstyle">“India, a nation that cherishes its past while embracing the future.”</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./media/paris-travel-guide.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="head-arrange">PARIS</h5>
+          <p class="sstyle">"Paris is the City of Light, of love, of beauty, of romance and of hope over fear,
+            gratitude over cynicism and light over darkness".</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br><br><br>
+  <!-- where (content) -->
+  <div class="col-lg-12 text-center">
+    <div class="section-heading">
+      <h2><span style="font-family: serif;">WHERE</span></h2>
+      <p class="text-muted">DISCOVER YOUR DREAM INDIAN OCEAN VACATION.</p>
+    </div>
+
+  </div>
+  <br><br><br>
+  <!-- cards (content)-->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-50">
+        <img src="./media/abudhabi.avif" class="card-img-top" alt="..." height="300px">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Abu Dhabi</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="./media/dubai.jpg" class="card-img-top" alt="..." height="300px">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Dubai</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="./media/sri-lanka-th-1.jpg" class="card-img-top" alt="..." height="300px">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Srilanka</h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="./media/southern-africa-th-1.jpg" class="card-img-top" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">South Africa</h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="./media/seychelles-thumbnail-1.jpg" class="card-img-top" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Seychelles</h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="./media/mauritius-thumbnail-1.jpg" class="card-img-top" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Mauritius</h5>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col">
+            <div class="card h-50">
+              <img src="./media/Goa.jpg" class="card-img-top" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Goa</h5>
+                
+              </div>
+            </div>
+          </div> -->
+  </div>
+  <br><br><br><br><br>
+  <!-- why (content)-->
+  <div class="col-lg-12 text-center mt-20 mb-40">
+    <div class="section-heading with-line">
+      <h2><span style="font-family: serif;">WHY</span></h2>
+    </div>
+    <br><br><br>
+
+    <ul class="cards" style="list-style: none; padding:0; margin-left: 120px;">
+      <li>
+        <a href="" class="card" style="width: 25rem;">
+          <img src="./media/cuisine-th-1.jpg" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <div class="card__header-text">
+                <h3 class="card__subtitle" style="color: black; text-align: center; font-family: sans-serif;">Cusine
+                </h3>
+              </div>
+            </div>
+            <p class="card__description"> </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="card" style="width: 25rem;">
+          <img src="./media/family-th.jpg" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <div class="card__header-text">
+                <h3 class="card__subtitle" style="color: black; text-align: center; font-family: sans-serif;">Family
+                </h3>
+              </div>
+            </div>
+            <p class="card__description"> </p>
+          </div>
+        </a>
+      </li>
+
+
+      <li>
+        <a href="" class="card" style="width: 25rem;">
+          <img src="./media/water-th.jpg" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <div class="card__header-text">
+                <h3 class="card__subtitle" style="color: black; text-align: center; font-family: sans-serif;">Water
+                  Activities</h3>
+              </div>
+            </div>
+            <p class="card__description"> </p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+  <br><br><br><br><br>
+  <div class="box">
+    <section id="section-cta-why" class="section-blue-bg pv-30">
+      <div class="container-detail">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+
+            <div class="section-heading cta-why-linara">
+              <h2>WHY LINARA</h2>
+              <p class="text-muted text-center">
+                We send more travelers to luxury resorts in the Indian Ocean than any other company in North America.
+                Whether you are looking for the most beautiful beach
+                in the Seychelles, a luxury safari in Africa, the posh resorts of Mauritius, amazing over water villas
+                in the Maldives,
+                or the glitz and glamour of Dubai; Linara Travel will advise and help plan the vacation of your dreams.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="container-detail blue-container-pad">
+              <div class="row">
+                <div class="col-md-4">
+
+                  <div class="pv-30 ph-20 feature-box text-center">
+                    <span class="icon default-bg">
+                      <img height="75"
+                        src="https://www.linaratravel.com/wp-content/themes/linaratravel-theme/_assets/img/about/expert.svg" />
+                    </span>
+                    <h3>EXPERT KNOWLEDGE</h3>
+                    <div class="separator clearfix"></div>
+                    <p>We personally visit the Maldives, Seychelles, Mauritius, United Arab Emirates, and Southern
+                      Africa several times a year to ensure you benefit from our unique perspective and have the most
+                      up-to-date information available. Our knowledgeable staff is here to ensure your vacation
+                      surpasses your expectations.
+                    </p>
+                  </div>
+
+                </div>
+                <div class="col-md-4">
+
+                  <div class="pv-30 ph-20 feature-box text-center">
+                    <span class="icon default-bg"><img height="71"
+                        src="https://www.linaratravel.com/wp-content/themes/linaratravel-theme/_assets/img/about/dollar-coin-money-white.svg" /></span>
+                    <h3>EXCEPTIONAL VALUE</h3>
+                    <div class="separator clearfix"></div>
+                    <p>
+                      We work directly with hotels, resorts, and suppliers to offer you excellent rates and detailed
+                      information about each destination. Our special relationships allow us to create unique and
+                      luxurious packages with great rates.
+                    </p>
+                  </div>
+
+                </div>
+                <div class="col-md-4">
+
+                  <div class="pv-30 ph-20 feature-box text-center">
+                    <span class="icon default-bg">
+                      <img height="86"
+                        src="https://www.linaratravel.com/wp-content/themes/linaratravel-theme/_assets/img/about/waiter-white.svg" />
+                    </span>
+                    <h3>AWARD WINNING SERVICE</h3>
+                    <div class="separator clearfix"></div>
+                    <p>
+                      We are here 24 hours a day no matter where you are in the World. We do more than just offer advice
+                      on your vacation dreams, we strive to take away all the hard work of planning a trip so you can
+                      simply relax and enjoy. Leave the details to us!
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <br><br><br><br>
+
+
+  <section id="section-feature-stories">
+    <div class="container-detail">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+
+          <div class="section-heading with-line">
+            <h2><span style="font-family: Georgia, 'Times New Roman', Times, serif ;">STORIES</span></h2>
+            <br>
+            <p class="text-muted">DISCOVER SOME OF OUR FAVORITE STORIES FOR INSPIRATION.</p>
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="webapp-featured-stories item-row">
+
+            <div class="discover-stories slick-grey">
+            </div>
+
+            <section id="apArrow" class="customAppend clearfix"></section>
+          </div>
+        </div>
+      </div>
+      <!-- /. end row -->
+
+    </div>
+  </section>
+
+  <section id="section-home-map">
+    <div class="container-detail">
+      <div class="row">
+        <div class="col-lg-12 text-center" {%comment%}onClick="style.pointerEvents='none'" {%endcomment%}>
+          <iframe src="https://snazzymaps.com/embed/70634" width="100%" height="400px" style="border:none;"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <!-- footer -->
+
+  <footer class="trending-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h3>Latest Trends</h3>
+          <ul>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Health & Wellness</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Food & Drink</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fa-brands fa-facebook fa-shake fa-lg">
+                  Facebook
+                </i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter fa-bounce fa-lg">
+                  Twitter
+                </i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram fa-fade fa-lg">
+                  Instagram
+                </i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
